@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 120%;
+
+    background-image: url("https://pub-static.fotor.com/assets/bg/aa4d0804-a2ac-43ea-a7ae-e6b39d0a5d91.jpg");
+}
+
+.container{
+    background-color: #375251;
+    color:rgb(143, 143, 210);
+    display: grid;
+    gap: 20px;
+    width: 600px;
+    max-width: calc(100vw - 40px);
+    padding: 50px;
+    border: 3px solid rgb(27, 27, 71);
+    border-radius:10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#text{
+    display: block;
+    height: 100px;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    border: 3px solid rgb(27, 27, 71);;
+    resize: none;
+    padding: 8px 10px;
+    outline: 2px solid rgba(120,120,120,0.623);
+}
+
+button{
+    padding: 10px;
+    background: #154750;
+    color: #fff;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: 3px solid rgb(27, 27, 71);;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(138, 122, 101);
+}
